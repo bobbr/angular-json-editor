@@ -44,7 +44,6 @@ angular.module('angular-json-editor', []).provider('JSONEditor', function () {
 
     return {
         restrict: 'E',
-        transclude: true,
         scope: {
             schema: '=',
             startval: '=',
